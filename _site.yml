@@ -2,7 +2,7 @@ name: "zachyoung11.github.io"
 title: "Zach Young's Blog"
 description: |
   Zach Young's Blog
-output_dir: "_site"
+output_dir: "docs"
 navbar:
   right:
     - text: "Home"
