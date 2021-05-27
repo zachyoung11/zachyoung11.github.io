@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Zach Youn's Senior Project Blog!"
+title: "Welcome to Zach Young's Senior Project Blog!"
 description: |
   Welcome to my new blog, it is a blog for my Senior Project. I hope you enjoy 
   reading what I have to say!
