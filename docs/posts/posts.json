@@ -1,7 +1,7 @@
 [
   {
     "path": "posts/welcome/",
-    "title": "Welcome to Zach Youn's Senior Project Blog",
+    "title": "Welcome to Zach Youn's Senior Project Blog!",
     "description": "Welcome to my new blog, it is a blog for my Senior Project. I hope you enjoy \nreading what I have to say!",
     "author": [
       {
@@ -13,8 +13,8 @@
     "categories": [],
     "contents": "\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-05-27T09:04:54-06:00",
-    "input_file": "welcome.utf8.md"
+    "last_modified": "2021-05-27T09:50:00-06:00",
+    "input_file": {}
   },
   {
     "path": "posts/2021-04-26-senior-project/",
