@@ -1,5 +1,5 @@
 ---
-title: "Zach Young's Blog"
+title: "Senior Project Blog"
 site: distill::distill_website
 listing: posts
 ---

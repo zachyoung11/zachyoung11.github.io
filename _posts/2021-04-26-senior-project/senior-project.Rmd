@@ -1,9 +1,9 @@
 ---
-title: "Senior Project"
+title: "Database Creation"
 description: |
-  A short description of the post.
+  The correct way to create a database.
 author:
-  - name: Nora Jones
+  - name: Zach Young
     url: https://example.com/norajones
 date: 04-26-2021
 output:
@@ -15,6 +15,9 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+For new companies or companies just starting to create a database you'll want to create a database correctly in order for it to work for you for long term success.
+
 
 Distill is a publication format for scientific and technical writing, native to the web.
 

@@ -1,14 +1,14 @@
 ---
-title: "Welcome to Zach Young's Blog"
+title: "Welcome to Zach Youn's Senior Project Blog"
 description: |
-  Welcome to our new blog, Zach Young's Blog. We hope you enjoy 
-  reading what we have to say!
+  Welcome to my new blog, it is a blog for my Senior Project. I hope you enjoy 
+  reading what I have to say!
 author:
-  - name: Nora Jones 
+  - name: Zach Young 
     url: https://example.com/norajones
-    affiliation: Spacely Sprockets
+    affiliation: Brigham Young University-Idaho
     affiliation_url: https://example.com/spacelysprokets
-date: 04-26-2021
+date: 05-22-2021
 output:
   distill::distill_article:
     self_contained: false

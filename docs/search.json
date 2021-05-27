@@ -6,14 +6,14 @@
       "description": "Some additional details about the blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-04-26T16:43:32-06:00"
+      "last_modified": "2021-05-27T09:02:03-06:00"
     },
     {
       "path": "index.html",
-      "title": "Zach Young's Blog",
+      "title": "Senior Project Blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-04-26T16:43:33-06:00"
+      "last_modified": "2021-05-27T09:02:05-06:00"
     }
   ],
   "collections": ["posts/posts.json"]

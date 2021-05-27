@@ -1,19 +1,36 @@
 [
   {
     "path": "posts/welcome/",
-    "title": "Welcome to Zach Young's Blog",
-    "description": "Welcome to our new blog, Zach Young's Blog. We hope you enjoy \nreading what we have to say!",
+    "title": "Welcome to Zach Youn's Senior Project Blog",
+    "description": "Welcome to my new blog, it is a blog for my Senior Project. I hope you enjoy \nreading what I have to say!",
     "author": [
       {
-        "name": "Nora Jones",
+        "name": "Zach Young",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2021-05-22",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-05-27T09:04:54-06:00",
+    "input_file": "welcome.utf8.md"
+  },
+  {
+    "path": "posts/2021-04-26-senior-project/",
+    "title": "Database Creation",
+    "description": "The correct way to create a database.",
+    "author": [
+      {
+        "name": "Zach Young",
         "url": "https://example.com/norajones"
       }
     ],
     "date": "2021-04-26",
     "categories": [],
-    "contents": "\r\n\r\n\r\n\r\n",
+    "contents": "\r\nFor new companies or companies just starting to create a database you’ll want to create a database correctly in order for it to work for you for long term success.\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-04-26T16:21:32-06:00",
+    "last_modified": "2021-05-27T09:00:09-06:00",
     "input_file": {}
   }
 ]

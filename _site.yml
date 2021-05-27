@@ -1,7 +1,7 @@
 name: "zachyoung11.github.io"
-title: "Zach Young's Blog"
+title: "Senior Project Blog"
 description: |
-  Zach Young's Blog
+  Senior Project Blog
 output_dir: "docs"
 navbar:
   right:
