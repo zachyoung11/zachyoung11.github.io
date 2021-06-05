@@ -1,8 +1,8 @@
 [
   {
     "path": "posts/welcome/",
-    "title": "Database Creation",
-    "description": "In this blog I will exlpain some best practices for new or excisting businesses that are beginning to create a database.",
+    "title": "Database Tables",
+    "description": "In this blog I will exlpain some best practices for new or excisting businesses that are beginning to create a database and setting up tables within that database.",
     "author": [
       {
         "name": "Zach Young",
@@ -11,9 +11,9 @@
     ],
     "date": "2021-05-22",
     "categories": [],
-    "contents": "\r\n\r\n\r\n\r\n",
+    "contents": "\r\nA database is made up of many different tables that store all of your organizations data. These tables are usually connected in some way. In order for your database to be most effective and help your company with data analysis, you should make it easy to navigate through. To help with easy navigation you should make sure that your tables are set up correctly.\r\nWhen creating a table you should first study your data and determine what data type it is. If you store your data as the wrong data type you wont be able to use the data in the way that you are expecting to. For example, if you store sales amounts as a string, you then wont be able to add those amounts up or do other calculations.\r\nNaming the tables will also help immensely with the ease of using a database. You want the titles of the tables and columns within the tables to be easy to understand so that when new employees begin working they wont have to decipher what the tables mean. Also you will want to name each table and column uniquely. When you are working with a table and all the columns are named almost the exact thing, it can get confusing and also hard to remember what each column is storing.\r\nAs well, when you are doing analysis with your data and you find yourself having to do many external calculations outside of your database, it might be worth it to create a new table in your database that does the calculations for you.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-06-05T09:08:00-06:00",
-    "input_file": {}
+    "last_modified": "2021-06-05T10:19:29-06:00",
+    "input_file": "database_creationblog.utf8.md"
   }
 ]
