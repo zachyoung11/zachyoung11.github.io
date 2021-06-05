@@ -1,8 +1,7 @@
 ---
-title: "1st Blog post"
+title: "Database Creation"
 description: |
-  Welcome to my new blog, it is a blog for my Senior Project. I hope you enjoy 
-  reading what I have to say!
+  In this blog I will exlpain some best practices for new or excisting businesses that are beginning to create a database.
 author:
   - name: Zach Young 
     url: https://example.com/norajones
