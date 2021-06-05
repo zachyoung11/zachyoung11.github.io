@@ -3,6 +3,7 @@ title: "Senior Project Blog"
 description: |
   Senior Project Blog
 output_dir: "docs"
+base_url: https://github.com/zachyoung11/zachyoung11.github.io.git
 navbar:
   right:
     - text: "Home"
