@@ -126,7 +126,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"NULL"}
+  {"type":"character","attributes":{},"value":["Live_connection_in_powerbi_files/anchor-4.2.2/anchor.min.js","Live_connection_in_powerbi_files/bowser-1.9.3/bowser.min.js","Live_connection_in_powerbi_files/distill-2.2.21/template.v2.js","Live_connection_in_powerbi_files/jquery-1.11.3/jquery.min.js","Live_connection_in_powerbi_files/popper-2.6.0/popper.min.js","Live_connection_in_powerbi_files/tippy-6.2.7/tippy-bundle.umd.min.js","Live_connection_in_powerbi_files/tippy-6.2.7/tippy-light-border.css","Live_connection_in_powerbi_files/tippy-6.2.7/tippy.css","Live_connection_in_powerbi_files/tippy-6.2.7/tippy.umd.min.js","Live_connection_in_powerbi_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2106,8 +2106,14 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 
 <div class="d-article">
-<p>Distill is a publication format for scientific and technical writing, native to the web.</p>
-<p>Learn more about using Distill at <a href="https://rstudio.github.io/distill" class="uri">https://rstudio.github.io/distill</a>.</p>
+<p>A live connection within PowerBi means that the data that you have in PowerBi updates as the database updates. However, when you are working with an external sql database you cant have a true live connection. Instead you can manually press the refresh button or schedule automatic refreshes so that the data will update however frequently you wish.</p>
+<p>The easiest and simplest way to have your data refresh is to just push the refresh button. This button is located on the home tab in the queries section of your PowerBi work space. This then will update any data and visualizations that has changed since you loaded in the data or since it was last refreshed.</p>
+<p>The way that you will set up the automatic refresh is when you first load in your data from the sql server you will input the server name where indicated.</p>
+<figure>
+<img src="Spring2021/Senior_Project/SQLserver_input.PNG" alt="" /><figcaption>Server Input Box</figcaption>
+</figure>
+<p>You then select direct query under the data connectivity mode. Then push ok and select the tables that you want to load into PowerBi. Then once the tables are loaded, select the format button under the visualizations ribbon and you’ll see the page refresh slider. When turned on you can select how frequently you would like it to refresh.</p>
+<p>You should know that the automatic refresh can go faster than what it takes to update the data. So, if you are working with a large data set that takes a long time to update, you should not set the refresh rate to a high frequency. This is why it isn’t considered a true live connection.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
