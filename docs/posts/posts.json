@@ -2,7 +2,7 @@
   {
     "path": "posts/2021-06-05-live-connection-in-powerbi/",
     "title": "Live Connection in PowerBi",
-    "description": "This article will show how to have a live connection to a database in PowerBi.",
+    "description": "This article shows how to have set up a live connection to a database in PowerBi.",
     "author": [
       {
         "name": "Zach Young",
@@ -13,8 +13,8 @@
     "categories": [],
     "contents": "\r\nA live connection within PowerBi means that the data that you have in PowerBi updates as the database updates. However, when you are working with an external sql database you cant have a true live connection. Instead you can manually press the refresh button or schedule automatic refreshes so that the data will update however frequently you wish.\r\nThe easiest and simplest way to have your data refresh is to just push the refresh button. This button is located on the home tab in the queries section of your PowerBi work space. This then will update any data and visualizations that has changed since you loaded in the data or since it was last refreshed.\r\nThe way that you will set up the automatic refresh is when you first load in your data from the sql server you will input the server name where indicated.\r\nServer Input BoxYou then select direct query under the data connectivity mode. Then push ok and select the tables that you want to load into PowerBi. Then once the tables are loaded, select the format button under the visualizations ribbon and you’ll see the page refresh slider. When turned on you can select how frequently you would like it to refresh.\r\nYou should know that the automatic refresh can go faster than what it takes to update the data. So, if you are working with a large data set that takes a long time to update, you should not set the refresh rate to a high frequency. This is why it isn’t considered a true live connection.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-06-08T20:44:09-06:00",
-    "input_file": "Live_connection_in_powerbi.utf8.md"
+    "last_modified": "2021-06-10T09:16:37-06:00",
+    "input_file": {}
   },
   {
     "path": "posts/welcome/",
@@ -30,7 +30,7 @@
     "categories": [],
     "contents": "\r\nA database is made up of many different tables that store all of your organizations data. These tables are usually connected in some way. In order for your database to be most effective and help your company with data analysis, you should make it easy to navigate through. To help with easy navigation you should make sure that your tables are set up correctly.\r\nWhen creating a table you should first study your data and determine what data type it is. If you store your data as the wrong data type you wont be able to use the data in the way that you are expecting to. For example, if you store sales amounts as a string, you then wont be able to add those amounts up or do other calculations.\r\nNaming the tables will also help immensely with the ease of using a database. You want the titles of the tables and columns within the tables to be easy to understand so that when new employees begin working they wont have to decipher what the tables mean. Also you will want to name each table and column uniquely. When you are working with a table and all the columns are named almost the exact thing, it can get confusing and also hard to remember what each column is storing.\r\nAs well, when you are doing analysis with your data and you find yourself having to do many external calculations outside of your database, you can create a VIEW within your database. A VIEW in SQL Server is like a virtual table that contains data from one or multiple tables. It does not hold any data and does not exist physically in the database. It simply contains a set of predefined SQL queries to fetch data from the database. This allows you to have calculations that you constantly make outside of the database already available to you for data analysis.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-06-10T09:14:25-06:00",
-    "input_file": "database_creationblog.utf8.md"
+    "last_modified": "2021-06-10T09:14:26-06:00",
+    "input_file": {}
   }
 ]

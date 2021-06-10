@@ -1,7 +1,7 @@
 ---
 title: "Live Connection in PowerBi"
 description: |
-  This article will show how to have a live connection to a database in PowerBi.
+  This article shows how to have set up a live connection to a database in PowerBi.
 author:
   - name: Zach Young
     url: https://example.com/norajones
